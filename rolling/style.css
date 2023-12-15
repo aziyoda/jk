@@ -1,11 +1,13 @@
-body{
+body {
     width: 80%;
-   
+
 }
-.container{
+
+.container {
     margin-right: 20px;
     margin-left: 20px;
 }
+
 .box {
     display: flex;
     justify-items: center;
@@ -76,3 +78,4 @@ h1 {
     line-height: 36px;
     /* 128.571% */
 }
+
