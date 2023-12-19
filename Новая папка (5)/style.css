@@ -1,0 +1,48 @@
+.qq{
+    width: 100px;
+    height: 100px;
+    background-color: darkslategrey;
+    transition: all 1s;
+}
+.qq:hover{
+    background-color: cornflowerblue;
+}
+.btn{
+    transition: all 1s;
+}
+.btn:active{
+    background-color: brown;
+    font-size: 50px;
+    
+}
+/* :focus эффект при фокусе */
+.btn-2{
+    transition: all 1s;
+}
+.btn-2:focus{
+    border: 3px solid blueviolet;
+}
+.link{
+    /* background-color: darkslategrey;
+    color: white; */
+    font-size: 30px;
+    transition: all 1s;
+}
+/* :visited эффект при посещении */
+.link:visited{
+    color: green;
+}
+
+li{
+    transition: all 1s;
+}
+li:first-child{
+    color: dimgray;
+}
+li:last-child{
+    color: darkgray;
+}
+/* :nth-child выделяет определню элемент */
+li:nth-child(odd){
+    background-color: pink;
+}
