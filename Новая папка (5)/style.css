@@ -1,13 +1,18 @@
-* {
-    background: #EEEFF1;
-}
+* {}
 
 body {
+    background: #EEEFF1;
     width: 100%;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .container {
-    margin-left: 30px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .box1 {
@@ -39,7 +44,7 @@ body {
     flex-shrink: 0;
 }
 
-svg {
+.basket {
     padding: 16px;
     background-color: white;
     border: 1px solid white;
@@ -73,6 +78,16 @@ h1 {
     font-weight: 800;
     line-height: 140px;
     /* 112.903% */
+}
+h1::after{
+    content: '';
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background: url(https://s3-alpha-sig.figma.com/img/3715/5a47/c8b1fa7218b1439651ba8e2b05dd4773?Expires=1704067200&Signature=Jn0Kd4i8zeC9L-5BcoEnCc9DZxCIBOQ~ZQ1FqbNFkV5jdpRtFppLIOaO7j8vcIDaRrPRYzLIKIlXNM8SNvl5bJ5~9OupkYm1axqGOx8wvG16KBxcjLg0RBxetQR~3Pm2z~3oDCk2DXeRmfnAgPDrHSxlIUJXl-4ij8Twu-jC9f-kfe009W-Ji8Zn7lShEV6GsheCtrlw6UNkieJEzERkEZ0w4TliumUXRlFhHCaSJ6lelDKQ0s5CAarlCtNdcHoMk~e~zVMymp19b-r-iS5qUTXjxL0VdTylwwWMwRsG5komDwGKi4UJ~jeh9ggZR1xbhB3vgajPHmudisF3pbjCSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .text {
@@ -120,10 +135,11 @@ a {
 }
 
 
-.bot2{
+.bot2 {
     display: flex;
     align-items: start;
 }
+
 .rating {
     border-radius: 24px;
     background: #FFF;
@@ -134,7 +150,7 @@ a {
     padding-bottom: 20px;
 }
 
-.star{
+.star {
     background-color: white;
 }
 
@@ -148,7 +164,107 @@ a {
     /* 136.842% */
     background-color: white;
 }
-.third{
+
+.third {
     margin-top: 70px;
     margin-right: 100px;
+}
+
+h2 {
+    color: #1B1B1D;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    /* 109.375% */
+}
+
+.cof {
+    color: #64646A;
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 393px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    /* padding: 40px; */
+    padding-left: 40px;
+}
+
+h3 {
+    color: #1B1B1D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+
+}
+
+.catering {
+    color: #64646A;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card button {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: uppercase;
+}
+
+.card svg,
+.card button {
+    display: block;
+    margin: 0 auto;
+}
+
+.container3 {
+    display: flex;
+    align-items: start;
+}
+
+.word {
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.words button {
+    margin-top: 60px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+    text-transform: uppercase;
 }
